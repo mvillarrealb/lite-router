@@ -7,6 +7,10 @@
     "doc": "./node_modules/.bin/jsdoc lib -r -d docs",
     "test": "nyc --reporter=html mocha test/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvillarrealb/lite-router"
+  },
   "author": "Marco Villarreal<erick.slayer.m.v@gmail.com>",
   "license": "MIT",
   "dependencies": {
