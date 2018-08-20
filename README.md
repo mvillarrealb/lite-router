@@ -1,18 +1,18 @@
-# lite-router
+# node-lite-router
 
 Simple and flexible router publisher for express and restify
 
 # Installation
 
 ```bash
-    npm install --save lite-router
+    npm install --save node-node-lite-router
 ```
 
 # Usage
 
 ## Choosing an Implementation
 
-lite-router has a two main implementations to be chosen: **restify** and **express**, booth of them share the same api.
+node-lite-router has a two main implementations to be chosen: **restify** and **express**, booth of them share the same api.
 
 ### Restify
 
@@ -20,7 +20,7 @@ To use LiteRouter in restify
 
 ```javascript
 
-const LiteRouter = require("lite-router").restify;
+const LiteRouter = require("node-lite-router").restify;
 const routesDefinition = require("./path_to/routes_definition.js");
 
 let routerHandler = LiteRouter.init({
@@ -40,7 +40,7 @@ To use LiteRouter in express
 
 ```javascript
 
-const LiteRouter = require("lite-router").express;
+const LiteRouter = require("node-lite-router").express;
 const routesDefinition = require("./path_to/routes_definition.js");
 
 let routerHandler = LiteRouter.init({
@@ -61,7 +61,7 @@ If you specify a directory name, then liteRouter will execute **require** on the
 
 ## Route Definition
 
-In order to use lite-router you have to use a route definition; a json array used to create a router with the following syntax:
+In order to use node-lite-router you have to use a route definition; a json array used to create a router with the following syntax:
 
 ```json
 [
@@ -150,7 +150,7 @@ class TasksController {
 
 # Running Examples
 
-To have a clear idea of how lite-router works you have two examples for running apis with express and restify.
+To have a clear idea of how node-lite-router works you have two examples for running apis with express and restify.
 
 ---
 
@@ -166,6 +166,10 @@ To have a clear idea of how lite-router works you have two examples for running 
 ```
 ---
 
-# Why lite-router
+# Why node-lite-router
 
-lite-router allows you to encapsulate route publishing and middleware organizing as externalized files, this enable a modular development with a fine separation of concerns for your express & restify REST Apis.
+node-lite-router allows you to encapsulate route publishing and middleware organizing as externalized files, this enable a modular development with a fine separation of concerns for your express & restify REST Apis.
+
+# Notes
+
+Somebody has the name lite-router in the npm registry :D

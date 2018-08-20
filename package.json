@@ -1,5 +1,5 @@
 {
-  "name": "lite-router",
+  "name": "node-lite-router",
   "version": "1.0.0",
   "description": "lite-router is a light weight",
   "main": "index.js",
